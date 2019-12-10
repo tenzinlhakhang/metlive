@@ -1,0 +1,10 @@
+@import "scss/bootstrap.scss";
+
+#output-data-upload table{
+  @extend .table;
+  @extend .table-striped;
+  @extend .table-hover;
+  @extend .table-bordered;
+  font-family: inherit;
+  --border: True;
+}

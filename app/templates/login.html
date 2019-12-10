@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+{% extends "base.html" %}
+
+{% block content %}
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/test.css') }}">
+</head>
+
+<body>
+
+<div id="form" align="center">
+  <h1>Sign In</h1>
+<form name='form_login' action="" method="post" novalidate>
+  {{ form.hidden_tag() }}
+  <p>
+    {{ form.username.label }}<br>
+    {{ form.username(size=32) }}<br>
+  </p>
+  <p>
+    {{ form.password.label }}<br>
+    {{ form.password(size=32) }}<br>
+  </p>
+  <p>{{ form.remember_me() }} {{ form.remember_me.label }}</p>
+  <p>{{ form.submit() }}</p>
+  {% if error %}
+  <p class="error"><strong>Error:</strong> {{ error }}
+    {% endif %}
+
+</form>
+<p> New User? <a href="{{ url_for('main.register') }}">Click to Register!</a></p>
+{% endblock %}
+</div>
+</body>
+
+</html>

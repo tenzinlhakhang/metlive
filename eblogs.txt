@@ -1,0 +1,441 @@
+Retrieving logs...
+============= i-08ac049c1a49b5537 ==============
+-------------------------------------
+/var/log/httpd/error_log
+-------------------------------------
+/opt/python/run/venv/bin/python3: can't open file '/opt/python/bundle/2/app/mod_wsgi': [Errno 2] No such file or directory
+[Mon Nov 25 21:12:24.232949 2019] [:error] [pid 3809] [remote 172.31.4.139:164] mod_wsgi (pid=3809): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Mon Nov 25 21:12:24.233036 2019] [:error] [pid 3809] [remote 172.31.4.139:164] mod_wsgi (pid=3809): SystemExit exception raised by WSGI script '/opt/python/current/app/application.py' ignored.
+[Mon Nov 25 21:12:24.233249 2019] [:error] [pid 3809] [remote 172.31.4.139:164] Traceback (most recent call last):
+[Mon Nov 25 21:12:24.233291 2019] [:error] [pid 3809] [remote 172.31.4.139:164]   File "/opt/python/current/app/application.py", line 4, in <module>
+[Mon Nov 25 21:12:24.233296 2019] [:error] [pid 3809] [remote 172.31.4.139:164]     application.run(host="0.0.0.0",debug=True,port=8080)
+[Mon Nov 25 21:12:24.233305 2019] [:error] [pid 3809] [remote 172.31.4.139:164]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+[Mon Nov 25 21:12:24.233311 2019] [:error] [pid 3809] [remote 172.31.4.139:164]     run_simple(host, port, self, **options)
+[Mon Nov 25 21:12:24.233320 2019] [:error] [pid 3809] [remote 172.31.4.139:164]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1008, in run_simple
+[Mon Nov 25 21:12:24.233325 2019] [:error] [pid 3809] [remote 172.31.4.139:164]     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[Mon Nov 25 21:12:24.233331 2019] [:error] [pid 3809] [remote 172.31.4.139:164]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/_reloader.py", line 339, in run_with_reloader
+[Mon Nov 25 21:12:24.233335 2019] [:error] [pid 3809] [remote 172.31.4.139:164]     sys.exit(reloader.restart_with_reloader())
+[Mon Nov 25 21:12:24.233358 2019] [:error] [pid 3809] [remote 172.31.4.139:164] SystemExit: 2
+[Mon Nov 25 21:12:29.885780 2019] [:error] [pid 3809]  * Serving Flask app "app" (lazy loading)
+[Mon Nov 25 21:12:29.885822 2019] [:error] [pid 3809]  * Environment: production
+[Mon Nov 25 21:12:29.885854 2019] [:error] [pid 3809]    WARNING: This is a development server. Do not use it in a production deployment.
+[Mon Nov 25 21:12:29.885875 2019] [:error] [pid 3809]    Use a production WSGI server instead.
+[Mon Nov 25 21:12:29.885888 2019] [:error] [pid 3809]  * Debug mode: on
+[Mon Nov 25 21:12:29.886362 2019] [:error] [pid 3809]  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[Mon Nov 25 21:12:29.886406 2019] [:warn] [pid 3809] mod_wsgi (pid=3809): Callback registration for signal 15 ignored.
+[Mon Nov 25 21:12:29.886537 2019] [:warn] [pid 3809]   File "/opt/python/current/app/application.py", line 4, in <module>
+[Mon Nov 25 21:12:29.886543 2019] [:warn] [pid 3809]     application.run(host="0.0.0.0",debug=True,port=8080)
+[Mon Nov 25 21:12:29.886549 2019] [:warn] [pid 3809]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+[Mon Nov 25 21:12:29.886552 2019] [:warn] [pid 3809]     run_simple(host, port, self, **options)
+[Mon Nov 25 21:12:29.886566 2019] [:warn] [pid 3809]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1008, in run_simple
+[Mon Nov 25 21:12:29.886570 2019] [:warn] [pid 3809]     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[Mon Nov 25 21:12:29.886575 2019] [:warn] [pid 3809]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/_reloader.py", line 330, in run_with_reloader
+[Mon Nov 25 21:12:29.886578 2019] [:warn] [pid 3809]     signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))
+[Mon Nov 25 21:12:29.886644 2019] [:error] [pid 3809]  * Restarting with stat
+/opt/python/run/venv/bin/python3: can't open file '/opt/python/bundle/2/app/mod_wsgi': [Errno 2] No such file or directory
+[Mon Nov 25 21:12:29.920959 2019] [:error] [pid 3809] [remote 172.31.28.49:164] mod_wsgi (pid=3809): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Mon Nov 25 21:12:29.921041 2019] [:error] [pid 3809] [remote 172.31.28.49:164] mod_wsgi (pid=3809): SystemExit exception raised by WSGI script '/opt/python/current/app/application.py' ignored.
+[Mon Nov 25 21:12:29.921249 2019] [:error] [pid 3809] [remote 172.31.28.49:164] Traceback (most recent call last):
+[Mon Nov 25 21:12:29.921302 2019] [:error] [pid 3809] [remote 172.31.28.49:164]   File "/opt/python/current/app/application.py", line 4, in <module>
+[Mon Nov 25 21:12:29.921308 2019] [:error] [pid 3809] [remote 172.31.28.49:164]     application.run(host="0.0.0.0",debug=True,port=8080)
+[Mon Nov 25 21:12:29.921316 2019] [:error] [pid 3809] [remote 172.31.28.49:164]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+[Mon Nov 25 21:12:29.921319 2019] [:error] [pid 3809] [remote 172.31.28.49:164]     run_simple(host, port, self, **options)
+[Mon Nov 25 21:12:29.921325 2019] [:error] [pid 3809] [remote 172.31.28.49:164]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1008, in run_simple
+[Mon Nov 25 21:12:29.921329 2019] [:error] [pid 3809] [remote 172.31.28.49:164]     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[Mon Nov 25 21:12:29.921334 2019] [:error] [pid 3809] [remote 172.31.28.49:164]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/_reloader.py", line 339, in run_with_reloader
+[Mon Nov 25 21:12:29.921338 2019] [:error] [pid 3809] [remote 172.31.28.49:164]     sys.exit(reloader.restart_with_reloader())
+[Mon Nov 25 21:12:29.921361 2019] [:error] [pid 3809] [remote 172.31.28.49:164] SystemExit: 2
+[Mon Nov 25 21:12:30.543495 2019] [:error] [pid 3809]  * Serving Flask app "app" (lazy loading)
+[Mon Nov 25 21:12:30.543535 2019] [:error] [pid 3809]  * Environment: production
+[Mon Nov 25 21:12:30.543569 2019] [:error] [pid 3809]    WARNING: This is a development server. Do not use it in a production deployment.
+[Mon Nov 25 21:12:30.543593 2019] [:error] [pid 3809]    Use a production WSGI server instead.
+[Mon Nov 25 21:12:30.543610 2019] [:error] [pid 3809]  * Debug mode: on
+[Mon Nov 25 21:12:30.544090 2019] [:error] [pid 3809]  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[Mon Nov 25 21:12:30.544133 2019] [:warn] [pid 3809] mod_wsgi (pid=3809): Callback registration for signal 15 ignored.
+[Mon Nov 25 21:12:30.544259 2019] [:warn] [pid 3809]   File "/opt/python/current/app/application.py", line 4, in <module>
+[Mon Nov 25 21:12:30.544265 2019] [:warn] [pid 3809]     application.run(host="0.0.0.0",debug=True,port=8080)
+[Mon Nov 25 21:12:30.544273 2019] [:warn] [pid 3809]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+[Mon Nov 25 21:12:30.544276 2019] [:warn] [pid 3809]     run_simple(host, port, self, **options)
+[Mon Nov 25 21:12:30.544285 2019] [:warn] [pid 3809]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1008, in run_simple
+[Mon Nov 25 21:12:30.544289 2019] [:warn] [pid 3809]     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[Mon Nov 25 21:12:30.544305 2019] [:warn] [pid 3809]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/_reloader.py", line 330, in run_with_reloader
+[Mon Nov 25 21:12:30.544308 2019] [:warn] [pid 3809]     signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))
+[Mon Nov 25 21:12:30.544378 2019] [:error] [pid 3809]  * Restarting with stat
+/opt/python/run/venv/bin/python3: can't open file '/opt/python/bundle/2/app/mod_wsgi': [Errno 2] No such file or directory
+[Mon Nov 25 21:12:30.578578 2019] [:error] [pid 3809] [remote 172.31.67.16:160] mod_wsgi (pid=3809): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Mon Nov 25 21:12:30.578657 2019] [:error] [pid 3809] [remote 172.31.67.16:160] mod_wsgi (pid=3809): SystemExit exception raised by WSGI script '/opt/python/current/app/application.py' ignored.
+[Mon Nov 25 21:12:30.578854 2019] [:error] [pid 3809] [remote 172.31.67.16:160] Traceback (most recent call last):
+[Mon Nov 25 21:12:30.578897 2019] [:error] [pid 3809] [remote 172.31.67.16:160]   File "/opt/python/current/app/application.py", line 4, in <module>
+[Mon Nov 25 21:12:30.578901 2019] [:error] [pid 3809] [remote 172.31.67.16:160]     application.run(host="0.0.0.0",debug=True,port=8080)
+[Mon Nov 25 21:12:30.578910 2019] [:error] [pid 3809] [remote 172.31.67.16:160]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+[Mon Nov 25 21:12:30.578916 2019] [:error] [pid 3809] [remote 172.31.67.16:160]     run_simple(host, port, self, **options)
+[Mon Nov 25 21:12:30.578924 2019] [:error] [pid 3809] [remote 172.31.67.16:160]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1008, in run_simple
+[Mon Nov 25 21:12:30.578931 2019] [:error] [pid 3809] [remote 172.31.67.16:160]     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[Mon Nov 25 21:12:30.578937 2019] [:error] [pid 3809] [remote 172.31.67.16:160]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/_reloader.py", line 339, in run_with_reloader
+[Mon Nov 25 21:12:30.578941 2019] [:error] [pid 3809] [remote 172.31.67.16:160]     sys.exit(reloader.restart_with_reloader())
+[Mon Nov 25 21:12:30.578963 2019] [:error] [pid 3809] [remote 172.31.67.16:160] SystemExit: 2
+[Mon Nov 25 21:12:30.890924 2019] [:error] [pid 3809]  * Serving Flask app "app" (lazy loading)
+[Mon Nov 25 21:12:30.890959 2019] [:error] [pid 3809]  * Environment: production
+[Mon Nov 25 21:12:30.890991 2019] [:error] [pid 3809]    WARNING: This is a development server. Do not use it in a production deployment.
+[Mon Nov 25 21:12:30.891013 2019] [:error] [pid 3809]    Use a production WSGI server instead.
+[Mon Nov 25 21:12:30.891028 2019] [:error] [pid 3809]  * Debug mode: on
+[Mon Nov 25 21:12:30.891487 2019] [:error] [pid 3809]  * Running on http://0.0.0.0:8080/ (Press CTRL+C to quit)
+[Mon Nov 25 21:12:30.891543 2019] [:warn] [pid 3809] mod_wsgi (pid=3809): Callback registration for signal 15 ignored.
+[Mon Nov 25 21:12:30.891666 2019] [:warn] [pid 3809]   File "/opt/python/current/app/application.py", line 4, in <module>
+[Mon Nov 25 21:12:30.891672 2019] [:warn] [pid 3809]     application.run(host="0.0.0.0",debug=True,port=8080)
+[Mon Nov 25 21:12:30.891679 2019] [:warn] [pid 3809]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+[Mon Nov 25 21:12:30.891682 2019] [:warn] [pid 3809]     run_simple(host, port, self, **options)
+[Mon Nov 25 21:12:30.891687 2019] [:warn] [pid 3809]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1008, in run_simple
+[Mon Nov 25 21:12:30.891691 2019] [:warn] [pid 3809]     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[Mon Nov 25 21:12:30.891696 2019] [:warn] [pid 3809]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/_reloader.py", line 330, in run_with_reloader
+[Mon Nov 25 21:12:30.891713 2019] [:warn] [pid 3809]     signal.signal(signal.SIGTERM, lambda *args: sys.exit(0))
+[Mon Nov 25 21:12:30.891787 2019] [:error] [pid 3809]  * Restarting with stat
+/opt/python/run/venv/bin/python3: can't open file '/opt/python/bundle/2/app/mod_wsgi': [Errno 2] No such file or directory
+[Mon Nov 25 21:12:30.925977 2019] [:error] [pid 3809] [remote 172.31.28.49:164] mod_wsgi (pid=3809): Target WSGI script '/opt/python/current/app/application.py' cannot be loaded as Python module.
+[Mon Nov 25 21:12:30.926068 2019] [:error] [pid 3809] [remote 172.31.28.49:164] mod_wsgi (pid=3809): SystemExit exception raised by WSGI script '/opt/python/current/app/application.py' ignored.
+[Mon Nov 25 21:12:30.926284 2019] [:error] [pid 3809] [remote 172.31.28.49:164] Traceback (most recent call last):
+[Mon Nov 25 21:12:30.926324 2019] [:error] [pid 3809] [remote 172.31.28.49:164]   File "/opt/python/current/app/application.py", line 4, in <module>
+[Mon Nov 25 21:12:30.926328 2019] [:error] [pid 3809] [remote 172.31.28.49:164]     application.run(host="0.0.0.0",debug=True,port=8080)
+[Mon Nov 25 21:12:30.926335 2019] [:error] [pid 3809] [remote 172.31.28.49:164]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/flask/app.py", line 990, in run
+[Mon Nov 25 21:12:30.926339 2019] [:error] [pid 3809] [remote 172.31.28.49:164]     run_simple(host, port, self, **options)
+[Mon Nov 25 21:12:30.926345 2019] [:error] [pid 3809] [remote 172.31.28.49:164]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/serving.py", line 1008, in run_simple
+[Mon Nov 25 21:12:30.926349 2019] [:error] [pid 3809] [remote 172.31.28.49:164]     run_with_reloader(inner, extra_files, reloader_interval, reloader_type)
+[Mon Nov 25 21:12:30.926355 2019] [:error] [pid 3809] [remote 172.31.28.49:164]   File "/opt/python/run/venv/local/lib/python3.6/site-packages/werkzeug/_reloader.py", line 339, in run_with_reloader
+[Mon Nov 25 21:12:30.926358 2019] [:error] [pid 3809] [remote 172.31.28.49:164]     sys.exit(reloader.restart_with_reloader())
+[Mon Nov 25 21:12:30.926379 2019] [:error] [pid 3809] [remote 172.31.28.49:164] SystemExit: 2
+
+
+
+-------------------------------------
+/opt/python/log/supervisord.log
+-------------------------------------
+2019-11-25 20:57:00,013 CRIT Supervisor running as root (no user in config file)
+2019-11-25 20:57:00,029 INFO RPC interface 'supervisor' initialized
+2019-11-25 20:57:00,029 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2019-11-25 20:57:00,029 INFO supervisord started with pid 3064
+2019-11-25 20:57:01,031 INFO spawned: 'httpd' with pid 3148
+2019-11-25 20:57:02,803 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2019-11-25 21:00:38,100 INFO stopped: httpd (exit status 0)
+2019-11-25 21:00:39,106 INFO spawned: 'httpd' with pid 3804
+2019-11-25 21:00:40,202 INFO success: httpd entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+
+
+
+-------------------------------------
+/var/log/httpd/access_log
+-------------------------------------
+172.31.15.186 (-) - - [25/Nov/2019:21:07:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:07:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:07:14 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (212.73.76.230) - - [25/Nov/2019:21:07:18 +0000] "GET / HTTP/1.1" 500 527 "-" "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+172.31.15.186 (-) - - [25/Nov/2019:21:07:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:07:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:07:23 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:07:29 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:07:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:07:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:07:38 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:07:44 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:07:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:07:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:07:53 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:07:59 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:08:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:08:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:08:08 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:08:14 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:08:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:08:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:08:23 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:08:29 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:08:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:08:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:08:39 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:08:44 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:08:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:08:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:08:54 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:08:59 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:09:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:09:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:09:09 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:09:14 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:09:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:09:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:09:24 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:09:29 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:09:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:09:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:09:39 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:09:44 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:09:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:09:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:09:54 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:09:59 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:10:00 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:10:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:10:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:10:09 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:10:14 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:10:15 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:10:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:10:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:10:24 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:10:29 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:10:30 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:10:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:10:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:10:39 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:10:44 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:10:45 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:10:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:10:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:10:54 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:10:59 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:11:00 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:11:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:11:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:11:09 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:11:14 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:11:15 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:11:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:11:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:11:24 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:11:29 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:11:30 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:11:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:11:36 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:11:39 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:11:44 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:11:45 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:11:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:11:51 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:11:54 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:11:59 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:12:00 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:12:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:12:06 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:12:09 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:12:14 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:12:15 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.15.186 (-) - - [25/Nov/2019:21:12:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.31.37 (-) - - [25/Nov/2019:21:12:21 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.4.139 (-) - - [25/Nov/2019:21:12:24 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (-) - - [25/Nov/2019:21:12:29 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.67.16 (-) - - [25/Nov/2019:21:12:30 +0000] "GET / HTTP/1.1" 500 527 "-" "ELB-HealthChecker/2.0"
+172.31.28.49 (51.68.70.66) - - [25/Nov/2019:21:12:30 +0000] "GET / HTTP/1.1" 500 527 "-" "masscan/1.0 (https://github.com/robertdavidgraham/masscan)"
+
+
+
+-------------------------------------
+/var/log/eb-activity.log
+-------------------------------------
+    Building wheel for sklearn (setup.py): finished with status 'done'
+    Created wheel for sklearn: filename=sklearn-0.0-py2.py3-none-any.whl size=2323 sha256=a3cea5640be7c7f1635ae44a32d4a27819a0bbf00c179513cdffbefa139819bf
+    Stored in directory: /root/.cache/pip/wheels/76/03/bb/589d421d27431bcd2c6da284d5f2286c8e3b2ea3cf1594c074
+    Building wheel for SQLAlchemy (setup.py): started
+    Building wheel for SQLAlchemy (setup.py): finished with status 'done'
+    Created wheel for SQLAlchemy: filename=SQLAlchemy-1.3.8-cp36-cp36m-linux_x86_64.whl size=1178923 sha256=adf0cc6b7115bc1f3b6d909748f0a221fbd05ba9c738d51881cfaeb0bc1c11be
+    Stored in directory: /root/.cache/pip/wheels/97/b6/66/de2064d40c920adc2984ff3b8fd4f11494c8ab9e48ba87e8a2
+    Building wheel for termcolor (setup.py): started
+    Building wheel for termcolor (setup.py): finished with status 'done'
+    Created wheel for termcolor: filename=termcolor-1.1.0-cp36-none-any.whl size=5681 sha256=73a11bb3e206011ac30f1c0dc2966e0e8f61ae8ead2bb70925ba2a66d550a3b5
+    Stored in directory: /root/.cache/pip/wheels/7c/06/54/bc84598ba1daf8f970247f550b175aaaee85f68b4b0c5ab2c6
+    Building wheel for texttable (setup.py): started
+    Building wheel for texttable (setup.py): finished with status 'done'
+    Created wheel for texttable: filename=texttable-0.9.1-cp36-none-any.whl size=8243 sha256=d9add5f33cde100c2c378a990e5610585254c1a5630dc347e1a6a74af34adb08
+    Stored in directory: /root/.cache/pip/wheels/99/1e/2b/8452d3a48dad98632787556a0f2f90d56703b39cdf7d142dd1
+    Building wheel for visitor (setup.py): started
+    Building wheel for visitor (setup.py): finished with status 'done'
+    Created wheel for visitor: filename=visitor-0.1.3-cp36-none-any.whl size=4627 sha256=dbcf6c8802c9964f3d66d89c7fdc32bcbdc6e956496554bff89d57a3961e5a3e
+    Stored in directory: /root/.cache/pip/wheels/68/b0/a2/cc8c7cf94ca3d1088a7d2e27936c1e0da170e05f560973e8dd
+    Building wheel for wrapt (setup.py): started
+    Building wheel for wrapt (setup.py): finished with status 'done'
+    Created wheel for wrapt: filename=wrapt-1.11.2-cp36-cp36m-linux_x86_64.whl size=57034 sha256=f2f49ce17f08e2c96de4c80af6fffcd617ed374b9305b0df13df702bccaf6bad
+    Stored in directory: /root/.cache/pip/wheels/d7/de/2e/efa132238792efb6459a96e85916ef8597fcb3d2ae51590dfd
+  Successfully built alembic awsebcli cement dash dash-bootstrap-components dash-core-components dash-html-components dash-renderer dash-table dockerpty docopt Flask-Bootstrap Flask-Compress Flask-Login future Mako pathspec psycopg2 pyrsistent PyYAML retrying sklearn SQLAlchemy termcolor texttable visitor wrapt
+  Installing collected packages: SQLAlchemy, MarkupSafe, Mako, python-editor, six, python-dateutil, alembic, attrs, docutils, urllib3, jmespath, botocore, cement, colorama, future, pathspec, PyYAML, idna, chardet, certifi, requests, semantic-version, termcolor, wcwidth, jsonschema, docker-pycreds, websocket-client, docker, docopt, texttable, dockerpty, cached-property, docker-compose, blessed, awsebcli, retrying, plotly, chart-studio, Click, cycler, Werkzeug, itsdangerous, Jinja2, Flask, Flask-Compress, dash-renderer, dash-core-components, dash-html-components, dash-table, dash, dash-bootstrap-components, decorator, dominate, visitor, Flask-Bootstrap, Flask-Login, Flask-SQLAlchemy, Flask-Migrate, WTForms, Flask-WTF, gunicorn, ipython-genutils, joblib, traitlets, jupyter-core, kiwisolver, lxml, numpy, pyparsing, matplotlib, nbformat, pytz, pandas, pandas-datareader, psycopg2, pyrsistent, scipy, scikit-learn, sklearn, wrapt
+  Successfully installed Click-7.0 Flask-1.1.1 Flask-Bootstrap-3.3.7.1 Flask-Compress-1.4.0 Flask-Login-0.4.1 Flask-Migrate-2.5.2 Flask-SQLAlchemy-2.4.0 Flask-WTF-0.14.2 Jinja2-2.10.1 Mako-1.1.0 MarkupSafe-1.1.1 PyYAML-3.13 SQLAlchemy-1.3.8 WTForms-2.2.1 Werkzeug-0.16.0 alembic-1.2.0 attrs-19.1.0 awsebcli-3.15.3 blessed-1.16.1 botocore-1.12.253 cached-property-1.5.1 cement-2.8.2 certifi-2019.9.11 chardet-3.0.4 chart-studio-1.0.0 colorama-0.3.9 cycler-0.10.0 dash-1.3.1 dash-bootstrap-components-0.7.2 dash-core-components-1.2.1 dash-html-components-1.0.1 dash-renderer-1.1.0 dash-table-4.3.0 decorator-4.4.0 docker-3.7.3 docker-compose-1.23.2 docker-pycreds-0.4.0 dockerpty-0.4.1 docopt-0.6.2 docutils-0.15.2 dominate-2.4.0 future-0.16.0 gunicorn-19.9.0 idna-2.7 ipython-genutils-0.2.0 itsdangerous-1.1.0 jmespath-0.9.4 joblib-0.14.0 jsonschema-2.6.0 jupyter-core-4.5.0 kiwisolver-1.1.0 lxml-4.4.1 matplotlib-3.1.1 nbformat-4.4.0 numpy-1.17.2 pandas-0.25.1 pandas-datareader-0.8.0 pathspec-0.5.9 plotly-4.1.1 psycopg2-2.8.4 pyparsing-2.4.5 pyrsistent-0.15.4 python-dateutil-2.8.0 python-editor-1.0.4 pytz-2019.2 requests-2.20.1 retrying-1.3.3 scikit-learn-0.21.3 scipy-1.3.2 semantic-version-2.5.0 six-1.11.0 sklearn-0.0 termcolor-1.1.0 texttable-0.9.1 traitlets-4.3.2 urllib3-1.24.3 visitor-0.1.3 wcwidth-0.1.7 websocket-client-0.56.0 wrapt-1.11.2
+[2019-11-25T21:00:33.698Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0/AppDeployPreHook/04configen.py] : Starting activity...
+[2019-11-25T21:00:35.649Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0/AppDeployPreHook/04configen.py] : Completed activity.
+[2019-11-25T21:00:35.649Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2019-11-25T21:00:35.650Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0/EbExtensionPostBuild] : Starting activity...
+[2019-11-25T21:00:37.195Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2019-11-25T21:00:37.195Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2019-11-25T21:00:37.214Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0/EbExtensionPostBuild] : Completed activity.
+[2019-11-25T21:00:37.214Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0/InfraCleanEbExtension] : Starting activity...
+[2019-11-25T21:00:37.217Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0/InfraCleanEbExtension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /opt/python/ondeck/app.
+[2019-11-25T21:00:37.217Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage0] : Completed activity. Result:
+  Application deployment - Command CMD-Startup stage 0 completed
+[2019-11-25T21:00:37.217Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1] : Starting activity...
+[2019-11-25T21:00:37.217Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook] : Starting activity...
+[2019-11-25T21:00:37.238Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook/01flip.py] : Starting activity...
+[2019-11-25T21:00:49.153Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook/01flip.py] : Completed activity. Result:
+  httpd: stopped
+  httpd: started
+  httpd                            RUNNING   pid 3804, uptime 0:00:02
+  2019-11-25 21:00:49,146 INFO     Apache is running, but root page is not responding in 3 seconds.
+[2019-11-25T21:00:49.153Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook/01stop_xray.sh] : Starting activity...
+[2019-11-25T21:00:51.370Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook/01stop_xray.sh] : Completed activity. Result:
+  Executing: if ( initctl status xray | grep start ); then initctl stop xray; fi
+  xray start/running, process 2282
+  xray stop/waiting
+[2019-11-25T21:00:51.370Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Starting activity...
+[2019-11-25T21:00:51.483Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook/02create_pids_for_monitoring.sh] : Completed activity. Result:
+  + chmod 0755 /var/run/httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy httpd
+  + /opt/elasticbeanstalk/bin/healthd-track-pidfile --name application --location /opt/python/run/supervisord.pid
+[2019-11-25T21:00:51.483Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook/02start_xray.sh] : Starting activity...
+[2019-11-25T21:00:51.592Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook/02start_xray.sh] : Completed activity.
+[2019-11-25T21:00:51.592Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2019-11-25T21:00:51.592Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployPostHook] : Starting activity...
+[2019-11-25T21:00:51.593Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2019-11-25T21:00:51.593Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/PostInitHook] : Starting activity...
+[2019-11-25T21:00:51.594Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/PostInitHook/01processmgrstart.sh] : Starting activity...
+[2019-11-25T21:00:51.601Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/PostInitHook/01processmgrstart.sh] : Completed activity. Result:
+  + pgrep supervisord
+  3064
+[2019-11-25T21:00:51.601Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1/PostInitHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/postinit.
+[2019-11-25T21:00:51.601Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/StartupStage1] : Completed activity. Result:
+  Application deployment - Command CMD-Startup stage 1 completed
+[2019-11-25T21:00:51.601Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/AddonsAfter] : Starting activity...
+[2019-11-25T21:00:51.601Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2019-11-25T21:00:51.604Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2019-11-25T21:00:51.689Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2019-11-25T21:00:51.689Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2019-11-25T21:00:51.689Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1/AddonsAfter] : Completed activity.
+[2019-11-25T21:00:51.689Z] INFO  [3271]  - [Application deployment app-63d8-191125_155526@1] : Completed activity. Result:
+  Application deployment - Command CMD-Startup succeeded
+[2019-11-25T21:04:03.606Z] INFO  [4121]  - [CMD-TailLogs] : Starting activity...
+[2019-11-25T21:04:03.606Z] INFO  [4121]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2019-11-25T21:04:03.606Z] INFO  [4121]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2019-11-25T21:04:03.606Z] INFO  [4121]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2019-11-25T21:04:03.606Z] INFO  [4121]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+[2019-11-25T21:04:03.889Z] INFO  [4121]  - [CMD-TailLogs/TailLogs/TailLogs] : Completed activity.
+[2019-11-25T21:04:03.889Z] INFO  [4121]  - [CMD-TailLogs/TailLogs] : Completed activity. Result:
+  CMD-TailLogs - stage 0 - Command CMD-TailLogs stage 0 completed
+[2019-11-25T21:04:03.889Z] INFO  [4121]  - [CMD-TailLogs/AddonsAfter] : Starting activity...
+[2019-11-25T21:04:03.889Z] INFO  [4121]  - [CMD-TailLogs/AddonsAfter] : Completed activity.
+[2019-11-25T21:04:03.889Z] INFO  [4121]  - [CMD-TailLogs] : Completed activity. Result:
+  CMD-TailLogs - Command CMD-TailLogs succeeded
+[2019-11-25T21:12:31.561Z] INFO  [4501]  - [CMD-TailLogs] : Starting activity...
+[2019-11-25T21:12:31.561Z] INFO  [4501]  - [CMD-TailLogs/AddonsBefore] : Starting activity...
+[2019-11-25T21:12:31.561Z] INFO  [4501]  - [CMD-TailLogs/AddonsBefore] : Completed activity.
+[2019-11-25T21:12:31.561Z] INFO  [4501]  - [CMD-TailLogs/TailLogs] : Starting activity...
+[2019-11-25T21:12:31.561Z] INFO  [4501]  - [CMD-TailLogs/TailLogs/TailLogs] : Starting activity...
+
+
+
+-------------------------------------
+/var/log/eb-commandprocessor.log
+-------------------------------------
+[2019-11-25T20:59:10.105Z] DEBUG [3271]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-11-25T20:59:10.106Z] DEBUG [3271]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-11-25T20:59:10.106Z] INFO  [3271]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2019-11-25T20:59:10.107Z] INFO  [3271]  : Updating Command definition of addon logpublish.
+[2019-11-25T20:59:10.108Z] INFO  [3271]  : Updating Command definition of addon logstreaming.
+[2019-11-25T20:59:10.108Z] DEBUG [3271]  : Refreshing metadata...
+[2019-11-25T20:59:10.504Z] DEBUG [3271]  : Refreshed environment metadata.
+[2019-11-25T20:59:10.504Z] INFO  [3271]  : Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
+[2019-11-25T20:59:10.504Z] DEBUG [3271]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_AppSourceUrlFileContent||url..
+[2019-11-25T20:59:10.505Z] INFO  [3271]  : Created appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
+[2019-11-25T20:59:10.505Z] DEBUG [3271]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent..
+[2019-11-25T20:59:10.506Z] INFO  [3271]  : Created container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
+[2019-11-25T20:59:10.506Z] DEBUG [3271]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-11-25T20:59:10.507Z] DEBUG [3271]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-11-25T20:59:10.508Z] INFO  [3271]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2019-11-25T20:59:10.509Z] INFO  [3271]  : Updating Command definition of addon logpublish.
+[2019-11-25T20:59:10.509Z] INFO  [3271]  : Updating Command definition of addon logstreaming.
+[2019-11-25T20:59:10.509Z] DEBUG [3271]  : Loaded definition of Command CMD-Startup.
+[2019-11-25T20:59:10.509Z] INFO  [3271]  : Executing Application deployment
+[2019-11-25T20:59:10.510Z] INFO  [3271]  : Executing command: CMD-Startup...
+[2019-11-25T20:59:10.510Z] INFO  [3271]  : Executing command CMD-Startup activities...
+[2019-11-25T20:59:10.510Z] DEBUG [3271]  : Setting environment variables..
+[2019-11-25T20:59:10.510Z] INFO  [3271]  : Running AddonsBefore for command CMD-Startup...
+[2019-11-25T20:59:10.636Z] DEBUG [3271]  : Running stages of Command CMD-Startup from stage 0 to stage 1...
+[2019-11-25T20:59:10.636Z] INFO  [3271]  : Running stage 0 of command CMD-Startup...
+[2019-11-25T20:59:10.636Z] INFO  [3271]  : Running leader election...
+[2019-11-25T20:59:11.035Z] INFO  [3271]  : Instance is Leader.
+[2019-11-25T20:59:11.035Z] DEBUG [3271]  : Loaded 7 actions for stage 0.
+[2019-11-25T20:59:11.035Z] INFO  [3271]  : Running 1 of 7 actions: HealthdLogRotation...
+[2019-11-25T20:59:11.041Z] INFO  [3271]  : Running 2 of 7 actions: HealthdHTTPDLogging...
+[2019-11-25T20:59:11.042Z] INFO  [3271]  : Running 3 of 7 actions: HealthdNginxLogging...
+[2019-11-25T20:59:11.042Z] INFO  [3271]  : Running 4 of 7 actions: EbExtensionPreBuild...
+[2019-11-25T20:59:22.627Z] INFO  [3271]  : Running 5 of 7 actions: AppDeployPreHook...
+[2019-11-25T21:00:35.649Z] INFO  [3271]  : Running 6 of 7 actions: EbExtensionPostBuild...
+[2019-11-25T21:00:37.214Z] INFO  [3271]  : Running 7 of 7 actions: InfraCleanEbExtension...
+[2019-11-25T21:00:37.217Z] INFO  [3271]  : Running stage 1 of command CMD-Startup...
+[2019-11-25T21:00:37.217Z] DEBUG [3271]  : Loaded 3 actions for stage 1.
+[2019-11-25T21:00:37.217Z] INFO  [3271]  : Running 1 of 3 actions: AppDeployEnactHook...
+[2019-11-25T21:00:51.592Z] INFO  [3271]  : Running 2 of 3 actions: AppDeployPostHook...
+[2019-11-25T21:00:51.593Z] INFO  [3271]  : Running 3 of 3 actions: PostInitHook...
+[2019-11-25T21:00:51.601Z] INFO  [3271]  : Running AddonsAfter for command CMD-Startup...
+[2019-11-25T21:00:51.689Z] INFO  [3271]  : Command CMD-Startup succeeded!
+[2019-11-25T21:00:51.689Z] INFO  [3271]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2019-11-25T21:04:03.596Z] DEBUG [4121]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-11-25T21:04:03.597Z] DEBUG [4121]  : Checking if the command processor should execute...
+[2019-11-25T21:04:03.600Z] DEBUG [4121]  : Checking whether the command is applicable to instance (i-08ac049c1a49b5537)..
+[2019-11-25T21:04:03.600Z] INFO  [4121]  : Command is applicable to this instance (i-08ac049c1a49b5537)..
+[2019-11-25T21:04:03.600Z] DEBUG [4121]  : Checking if the received command stage is valid..
+[2019-11-25T21:04:03.600Z] INFO  [4121]  : No stage_num in command. Valid stage..
+[2019-11-25T21:04:03.600Z] INFO  [4121]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-08ac049c1a49b5537"], "data"=>"c0f30833-960b-47cc-b185-3522382e86d4", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"c0f30833-960b-47cc-b185-3522382e86d4"}
+[2019-11-25T21:04:03.600Z] INFO  [4121]  : Command processor should execute command.
+[2019-11-25T21:04:03.600Z] DEBUG [4121]  : Storing current stage..
+[2019-11-25T21:04:03.600Z] DEBUG [4121]  : Stage_num does not exist. Not saving null stage. Returning..
+[2019-11-25T21:04:03.600Z] DEBUG [4121]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-11-25T21:04:03.600Z] DEBUG [4121]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-11-25T21:04:03.603Z] DEBUG [4121]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-11-25T21:04:03.603Z] INFO  [4121]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2019-11-25T21:04:03.605Z] INFO  [4121]  : Updating Command definition of addon logpublish.
+[2019-11-25T21:04:03.605Z] INFO  [4121]  : Updating Command definition of addon logstreaming.
+[2019-11-25T21:04:03.605Z] DEBUG [4121]  : Loaded definition of Command CMD-TailLogs.
+[2019-11-25T21:04:03.606Z] INFO  [4121]  : Executing CMD-TailLogs
+[2019-11-25T21:04:03.606Z] INFO  [4121]  : Executing command: CMD-TailLogs...
+[2019-11-25T21:04:03.606Z] INFO  [4121]  : Executing command CMD-TailLogs activities...
+[2019-11-25T21:04:03.606Z] DEBUG [4121]  : Setting environment variables..
+[2019-11-25T21:04:03.606Z] INFO  [4121]  : Running AddonsBefore for command CMD-TailLogs...
+[2019-11-25T21:04:03.606Z] DEBUG [4121]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2019-11-25T21:04:03.606Z] INFO  [4121]  : Running stage 0 of command CMD-TailLogs...
+[2019-11-25T21:04:03.606Z] DEBUG [4121]  : Loaded 1 actions for stage 0.
+[2019-11-25T21:04:03.606Z] INFO  [4121]  : Running 1 of 1 actions: TailLogs...
+[2019-11-25T21:04:03.889Z] INFO  [4121]  : Running AddonsAfter for command CMD-TailLogs...
+[2019-11-25T21:04:03.889Z] INFO  [4121]  : Command CMD-TailLogs succeeded!
+[2019-11-25T21:04:03.890Z] INFO  [4121]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[{"msg":"[Instance: i-08ac049c1a49b5537] Successfully finished tailing 5 log(s)","severity":"INFO","timestamp":1574715843890}]}]}
+[2019-11-25T21:12:31.554Z] DEBUG [4501]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-11-25T21:12:31.554Z] DEBUG [4501]  : Checking if the command processor should execute...
+[2019-11-25T21:12:31.557Z] DEBUG [4501]  : Checking whether the command is applicable to instance (i-08ac049c1a49b5537)..
+[2019-11-25T21:12:31.558Z] INFO  [4501]  : Command is applicable to this instance (i-08ac049c1a49b5537)..
+[2019-11-25T21:12:31.558Z] DEBUG [4501]  : Checking if the received command stage is valid..
+[2019-11-25T21:12:31.558Z] INFO  [4501]  : No stage_num in command. Valid stage..
+[2019-11-25T21:12:31.558Z] INFO  [4501]  : Received command CMD-TailLogs: {"execution_data"=>"*", "instance_ids"=>["i-08ac049c1a49b5537"], "data"=>"b8a68f5a-9be3-410a-b335-e579e345f351", "command_name"=>"CMD-TailLogs", "api_version"=>"1.0", "resource_name"=>"AWSEBAutoScalingGroup", "request_id"=>"b8a68f5a-9be3-410a-b335-e579e345f351"}
+[2019-11-25T21:12:31.558Z] INFO  [4501]  : Command processor should execute command.
+[2019-11-25T21:12:31.558Z] DEBUG [4501]  : Storing current stage..
+[2019-11-25T21:12:31.558Z] DEBUG [4501]  : Stage_num does not exist. Not saving null stage. Returning..
+[2019-11-25T21:12:31.558Z] DEBUG [4501]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2019-11-25T21:12:31.558Z] DEBUG [4501]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2019-11-25T21:12:31.558Z] DEBUG [4501]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2019-11-25T21:12:31.559Z] INFO  [4501]  : Found enabled addons: ["logpublish", "logstreaming"].
+[2019-11-25T21:12:31.560Z] INFO  [4501]  : Updating Command definition of addon logpublish.
+[2019-11-25T21:12:31.560Z] INFO  [4501]  : Updating Command definition of addon logstreaming.
+[2019-11-25T21:12:31.560Z] DEBUG [4501]  : Loaded definition of Command CMD-TailLogs.
+[2019-11-25T21:12:31.560Z] INFO  [4501]  : Executing CMD-TailLogs
+[2019-11-25T21:12:31.561Z] INFO  [4501]  : Executing command: CMD-TailLogs...
+[2019-11-25T21:12:31.561Z] INFO  [4501]  : Executing command CMD-TailLogs activities...
+[2019-11-25T21:12:31.561Z] DEBUG [4501]  : Setting environment variables..
+[2019-11-25T21:12:31.561Z] INFO  [4501]  : Running AddonsBefore for command CMD-TailLogs...
+[2019-11-25T21:12:31.561Z] DEBUG [4501]  : Running stages of Command CMD-TailLogs from stage 0 to stage 0...
+[2019-11-25T21:12:31.561Z] INFO  [4501]  : Running stage 0 of command CMD-TailLogs...
+[2019-11-25T21:12:31.561Z] DEBUG [4501]  : Loaded 1 actions for stage 0.
+[2019-11-25T21:12:31.561Z] INFO  [4501]  : Running 1 of 1 actions: TailLogs...
+
+
+

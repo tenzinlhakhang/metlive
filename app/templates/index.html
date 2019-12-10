@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block app_content %}
+{% if current_user.is_anonymous %}
+{% else  %}
+  
+  
+{% endif %}
+<head>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/test2.css') }}">
+</head>
+
+<style>
+body {background-color: tan;}
+h1   {color: Black;}
+p    {color: White;}
+</style>
+
+
+<div style="margin: 0 auto; text-align: center" class="divElement">
+  <h1 style="font-family:Arial;">Hi, Demo User {{ current_user.username }}</h1>
+</div>
+
+<div style="margin: 0 auto; text-align: center" class="link_class">
+   <a href="{{ url_for('/dashboard/') }}">Click to run Demo Analysis on experiment</a>
+</div>
+
+
+</body>
+</html> 
+
+{% endblock %}
+
+<div class="container">
+  <a href="#" class="button blue">Apply Now</a>
+</div>

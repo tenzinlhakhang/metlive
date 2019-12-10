@@ -1,0 +1,15 @@
+#divElement{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#link_class{
+	width: 100%; 
+	text-align:center;
+}
